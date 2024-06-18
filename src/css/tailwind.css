@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .transition-all-duration{
+        transition: all linear 400ms ;
+    }
+}
